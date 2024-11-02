@@ -5,7 +5,7 @@ import chalk from "chalk";
 import inquirer from "inquirer";
 import ora from "ora";
 
-program.version("1.0.0").description("My Node CLI");
+program.version("1.0.0").description("My CLI");
 
 import figlet from "figlet";
 
