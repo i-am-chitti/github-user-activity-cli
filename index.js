@@ -11,7 +11,6 @@ console.log(chalk.yellow( figlet.textSync( 'GH Activity')) );
 program.version('1.0.0').description('A simple CLI for getting GitHub user activity');
 
 const displayGitHubActivity = async (username) => {
-    // Sanitize the username
     username = username.trim();
 
     if ( ! username ) {
@@ -60,6 +59,6 @@ const displayGitHubActivity = async (username) => {
     }
 };
 
-program.arguments('<username>').action(displayGitHubActivity);
+program.argument('<username>').action(displayGitHubActivity);
 
 program.parse(process.argv);
