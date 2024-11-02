@@ -1,5 +1,5 @@
 # GitHub Activity CLI
-A simple Nodejs CLI application to fetch GitHub user activity.
+A simple Nodejs CLI application to fetch GitHub user activity. Inspired from https://roadmap.sh/projects/github-user-activity
 
 ![welcome](images/welcome.png)
 
